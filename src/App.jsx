@@ -1,7 +1,9 @@
 
 import './App.css'
 import DebitCard from './Components/DebitCard'
+import Faq from './Components/Faq'
 import Feedback from './Components/Feedback'
+import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import NavbarArea from './Components/NavbarArea'
 import Offer from './Components/Offer'
@@ -21,8 +23,9 @@ function App() {
     <DebitCard/>
     <PerfectCard/>
     <Feedback/>
+    <Faq/>
     </div>
-
+    <Footer/>
     </main>
     </>
   )
