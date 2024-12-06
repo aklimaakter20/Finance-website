@@ -25,7 +25,7 @@ const Faq = () => {
     <section className='mt-20'>
       <div className="container mx-auto">
         <div>
-            <h2 className='text-center font-bold leading-tight text-2xl lg:text-3xl'>FAQs</h2>
+            <h2 className='text-center font-bold leading-tight text-2xl lg:text-3xl mb-10'>FAQs</h2>
             <Accordion>
                 {faqs.map(({a,q},i)=>(
                          <AccordionItem aria-label={q} title={q} key={i}>
